@@ -11,3 +11,5 @@
         }
         if(num>1) freq[num]++;
     }
+
+    //TC = O(Sqrt(N))
