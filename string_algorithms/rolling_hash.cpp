@@ -17,7 +17,7 @@ struct hasher{
         fHash[0] = s[0] - 'a' + 1;
         pk[0] = 1;
         for(int i=1;i<sz;i++){
-            fHash[i] = (fHash[i-1]*p + (s[i]-'a'+1));
+            fHash[i] = (fHash[i-1]*p + (s[i]-'a'+1))%mod;
             pk[i] = (pk[i-1]*p)%mod;
         }
     }
