@@ -1,0 +1,1 @@
+{"name":"Local: hello","url":"c:\\Users\\vatsa\\Desktop\\DSA\\algorithms\\hello.cpp","tests":[{"id":1720556755275,"input":"3","output":"8"},{"id":1720558273734,"input":"5","output":"10"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\vatsa\\Desktop\\DSA\\algorithms\\hello.cpp","group":"local","local":true}
